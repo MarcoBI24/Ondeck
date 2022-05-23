@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+.contenedor-general{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee8e1;
+    border: 5px solid ;
+    
+    padding: calc(20px + 1vw);
+    display: flex;
+    flex-direction: column;
+    gap: calc(30px + 1vw);
+}
+.contenedor-header{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor-header-logo{
+}
+.logo-img{
+    width: calc(100px + 2vw);
+}
+.contenedor-header-nav{
+    
+}
+/* CONTENEDOR MAIN */
+.contenedor-main{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contenedor-item-main{
+    flex: 1 1 100%;
+    width: 100%;
+    min-width: 100%;
+    
+}
+.contenedor-main-titulo{
+}
+.titulo{
+    width: 100%;
+    font-size: calc(2rem + 1vw);
+    font-weight: 700;
+}
+.titulo-bold{
+    color: #fb3;
+}
+.contenedor-main-description{
+    /* border: 2px solid ; */
+}
+.description{
+    font-weight: 400;
+    font-size: calc(.8rem + 1vw);
+    color: #6C6C6C;
+    line-height: calc(20px + 1vw);
+}
+.contenedor-main-btn{
+    /* border: 2px solid blue; */
+}
+.btn{
+    color: white;
+    border: 0px solid;
+    border-radius: calc(1px + 1vw);
+    background-color: #142;
+    padding:15px 30px;
+    font-weight: 700;
+    font-size: calc(.8rem + 1vw);
+}
+.contenedor-main-reviews{
+    display: flex;
+    gap: calc(20px + 1vw);
+}
+.review-text{
+    font-weight: 400;
+    font-size: calc(.8rem + 1vw);
+    color: #6C6C6C;
+}
+.review-logos{
+    /* border: 1px solid white; */
+}
+/* FIN DEL CONTENEDOR MAIN */
+/* CONTENEDOR FOOTER */
+
+.contenedor-footer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor-footer-title{
+    
+}
+.title-footer{
+    font-weight: 400;
+    font-size: calc(.8rem + 1vw);
+    color: #6C6C6C;
+    text-align: center;
+}
+
+.contenedor-footer-logos{
+    /* border: 2px solid #142; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.contenedor-footer-logos img{
+    flex: 1 1 45%;
+    width: 100%;
+    max-width: 47%;
+    /* gap: 20px;
+     */
+}
